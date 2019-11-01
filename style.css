@@ -10,6 +10,10 @@
   height: 13%;
 }
 
+.link a{
+  text-align: left;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -31,17 +35,13 @@ h1 {
   background-color: #0000;
 }
 
-.nav a {
+.nav a{
   float: left;
   color: black;
   text-align: center;
   padding: 14px 20px;
   font-size: 20px;
   text-decoration: none;
-  border-bottom: 2px solid transparent;
-}
-
-.nav a.active {
   border-bottom: 3px solid turquoise;
 }
 
@@ -58,7 +58,6 @@ button {
   width: 100%;
   padding: 12px 7px;
   margin: 6px 0;
-  border: 1px solid #0000;
   box-sizing: border-box;
 }
 
